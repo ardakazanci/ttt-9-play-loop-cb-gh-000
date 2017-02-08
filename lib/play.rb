@@ -35,4 +35,22 @@ def turn(board)
   end
 end
 
+
 # Define your play method below
+
+def play(board)
+
+index = 0
+
+while index <9
+
+
+
+move(board,index,"X")
+
+index +=1
+
+end
+
+
+end
